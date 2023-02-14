@@ -9,6 +9,7 @@ html {
 body {
     width: 900px;
     margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .logo {
@@ -86,6 +87,7 @@ h2 {
 
 .content {
     background-color: white;
+    padding: 10px 100px 40px;
 }
 
 .profile {
@@ -105,7 +107,7 @@ h2 {
 }
 
 .quote {
-    background-color: gray;
+    background-color: #e5e7eb;
     margin: 0;
 }
 
@@ -115,8 +117,20 @@ figure {
 
 .quoteP {
     margin: 0;
+    font-weight: 100;
 }
 
 blockquote {
     margin: 0;
+    width: 800px;
+    margin: 0 auto;
+    padding: 100px;
+    font-size: 36px;
+}
+
+figcaption {
+    text-align: right;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 24px;
 }
